@@ -1,4 +1,3 @@
 # xtream-m3u
-# ______________________________
-IPTV es Television por protocolo de internet y en eso es conocido el Xtream.
+IPTV (Internet Protocol Television) es un servicio que transmite canales de televisión en vivo y contenido bajo demanda a través de internet de banda ancha, en lugar de métodos tradicionales como satélite o cable. Utiliza un protocolo IP para enviar la señal, permitiendo visualizarla en Smart TVs, TV Boxes, celulares o computadoras.
 # ¿Que es Xtream?
