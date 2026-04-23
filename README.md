@@ -30,7 +30,7 @@ Las listas M3U son listas de reproduccion multimedia, donde se organizan por el 
 
 Y al cargarla en un reproductor media como VLC, se ve primero el canal El canal de Pepito el mas capito.
 #
-#Canales de prueba
+# Canales de prueba
 En Playlist, casi siempre existen canales de prueba con formato HLS o con formato de video (.mp4, .mkv o como .avi), algunas son:
 
 Akamai: https://stream-akamai.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8
@@ -42,7 +42,7 @@ VOD Url: https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
 Big Buck Bunny: https://live-hls-abr-cdn.livepush.io/live/bigbuckbunnyclip/index.m3u8
 
 
-#¿Que es Mejor? ¿TV por Cable, Antena o Streaming?
+# ¿Que es Mejor? ¿TV por Cable, Antena o Streaming?
 En estas desiciones, se tiene que tomar el que usted quiera por caracteristicas como velocidad, calidad u otros.
 
 Si quieres calidad: Usa Antena por TV Digital o Streaming
@@ -75,7 +75,7 @@ json-teles => https://github.com/Alplox/json-teles/raw/refs/heads/main/canales.m
 
 Esos son todos los que me se.
 
-#Plataformas para servir streams
+# Plataformas para servir streams
 Una de las plataformas para servir stream de las que mas conozco, es MDSTRM. Hay otras como Digitalproserver, grupoz.cl, Twitch, Youtube, etc.
 Siempre usa la mas confiable y segure.
 
