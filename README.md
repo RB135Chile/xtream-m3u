@@ -45,7 +45,7 @@ Big Buck Bunny: https://live-hls-abr-cdn.livepush.io/live/bigbuckbunnyclip/index
 #¿Que es Mejor? ¿TV por Cable, Antena o Streaming?
 En estas desiciones, se tiene que tomar el que usted quiera por caracteristicas como velocidad, calidad u otros.
 
-Si quieres calidad: Usa Antena por TV Diginat o Streaming
+Si quieres calidad: Usa Antena por TV Digital o Streaming
 
 Si quieres velocidad: Usa Cable
 
