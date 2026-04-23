@@ -54,7 +54,7 @@ Si quieres TV premium: Usa Cable o Streaming
 
 A veces, es mejor tomar el streaming por calidad y contenido restringido, siempre como va tu internet o uso de datos.
 
-#¿Donde hay listas M3U de Chile?
+# ¿Donde hay listas M3U de Chile?
 Puedes encontrar listas M3U en internet usando palabras clave como:
 
 IPTV, M3U Chile, IPTV Chile, TV Gratis, TV por internet, M3U, IPTV Premi...
