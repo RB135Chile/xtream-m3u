@@ -20,10 +20,13 @@ Las listas M3U son listas de reproduccion multimedia, donde se organizan por el 
 .#EXTM3U
 .#EXTINF:-1 tvg-logo="logo1.png" tvg-id="pepitoserver.net" group-title="24/7",El canal de Pepito el mas capito
 .http://pepitoserver.net/playlist.m3u8
+
 .#EXTINF:-1 tvg-logo="logo2.png" tvg-id="pepitoserver.net" group-title="24/7",El canal de Pepito el mas capito 2
 .http://pepitoserver.net/playlist.m3u8?channel=2
+
 .#EXTINF:-1 tvg-logo="movie1.png" tvg-id="pepitoserver.net" group-title="Cortometrajes",Historia de Pepito
 .http://pepitoserver.net/movie/h-i-s-t-o-r-i-a-_-d-e-_-p-e-p-i-t-o.mkv
+
 
 Y al cargarla en un reproductor media como VLC, se ve primero el canal El canal de Pepito el mas capito.
 #
