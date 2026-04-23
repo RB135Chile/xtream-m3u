@@ -34,7 +34,51 @@ Y al cargarla en un reproductor media como VLC, se ve primero el canal El canal 
 En Playlist, casi siempre existen canales de prueba con formato HLS o con formato de video (.mp4, .mkv o como .avi), algunas son:
 
 Akamai: https://stream-akamai.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8
+
 Fastly: https://stream-fastly.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8
+
 VOD Url: https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+
 Big Buck Bunny: https://live-hls-abr-cdn.livepush.io/live/bigbuckbunnyclip/index.m3u8
 
+
+#¿Que es Mejor? ¿TV por Cable, Antena o Streaming?
+En estas desiciones, se tiene que tomar el que usted quiera por caracteristicas como velocidad, calidad u otros.
+
+Si quieres calidad: Usa Antena por TV Diginat o Streaming
+
+Si quieres velocidad: Usa Cable
+
+Si quieres TV premium: Usa Cable o Streaming
+
+
+A veces, es mejor tomar el streaming por calidad y contenido restringido, siempre como va tu internet o uso de datos.
+
+#¿Donde hay listas M3U de Chile?
+Puedes encontrar listas M3U en internet usando palabras clave como:
+
+IPTV, M3U Chile, IPTV Chile, TV Gratis, TV por internet, M3U, IPTV Premi...
+
+
+Y otra opcion es usar un servicio por streaming como Zapping, VTR, Movistar, etc. O usar opciones de servicio IPTV Ilegal que filtra canales premium como:
+
+TNT Sports 1, TNT Sports 2, TNT Sports 3, Canales ESPN, CDO, etc.
+
+Listas M3U Legales que puedes usar:
+
+M3U.cl => https://m3u.cl/lista/CL.m3u
+iptv-org => https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/cl.m3u
+json-teles => https://github.com/Alplox/json-teles/raw/refs/heads/main/canales.m3u
+
+
+Esos son todos los que me se.
+
+#Plataformas para servir streams
+Una de las plataformas para servir stream de las que mas conozco, es MDSTRM. Hay otras como Digitalproserver, grupoz.cl, Twitch, Youtube, etc.
+Siempre usa la mas confiable y segure.
+
+#Outro
+En fin, ya sabes que haremos en el repositorio, que es un iptv, que es una lista m3u, etc.
+Entra a "novedades.html" desde la pagina ("index.html").
+
+#Bye Bye :)
