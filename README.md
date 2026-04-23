@@ -83,4 +83,4 @@ Siempre usa la mas confiable y segure.
 En fin, ya sabes que haremos en el repositorio, que es un iptv, que es una lista m3u, etc.
 Entra a "novedades.html" desde la pagina ("index.html").
 
-#Bye Bye :)
+# Bye Bye :)
