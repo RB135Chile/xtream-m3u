@@ -67,7 +67,9 @@ TNT Sports 1, TNT Sports 2, TNT Sports 3, Canales ESPN, CDO, etc.
 Listas M3U Legales que puedes usar:
 
 M3U.cl => https://m3u.cl/lista/CL.m3u
+
 iptv-org => https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/cl.m3u
+
 json-teles => https://github.com/Alplox/json-teles/raw/refs/heads/main/canales.m3u
 
 
