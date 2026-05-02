@@ -8,5 +8,79 @@
 <body>
     <h1 align="center">M3U Chile</h1>
     <p align="center">Esta pagina explica que es un M3U y IPTV, tambien hereda un M3U para reproducir por ejemplo: VLC</p>
+
+
+    <h4>Reproductor para lista M3U de xtream-m3u</h4>
+
+    <h2>Ingresar Token</h2>
+<input type="text" id="token" placeholder="Escribe tu token">
+<button onclick="cargarM3U()">Cargar lista</button>
+
+<h3>Canales</h3>
+<ul id="lista"></ul>
+
+<h3>Reproductor</h3>
+<video id="player" controls width="600"></video>
+<iframe id="frame" width="600" height="400" style="display:none;"></iframe>
+
+<script>
+async function cargarM3U() {
+  const token = document.getElementById("token").value.trim();
+  const url = "https://raw.githubusercontent.com/RB135Chile/xtream-m3u/refs/heads/main/lista.m3u?token=" + token;
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("No se pudo cargar");
+
+    const text = await res.text();
+    parseM3U(text);
+  } catch (err) {
+    alert("Error cargando M3U: " + err.message);
+  }
+}
+
+function parseM3U(data) {
+  const lista = document.getElementById("lista");
+  lista.innerHTML = "";
+
+  const lineas = data.split("\n");
+  let nombre = "";
+
+  lineas.forEach(linea => {
+    linea = linea.trim();
+
+    if (linea.startsWith("#EXTINF")) {
+      nombre = linea.split(",")[1] || "Canal";
+    } else if (linea && !linea.startsWith("#")) {
+      const url = linea;
+
+      const li = document.createElement("li");
+      const btn = document.createElement("button");
+
+      btn.textContent = nombre;
+      btn.onclick = () => reproducir(url);
+
+      li.appendChild(btn);
+      lista.appendChild(li);
+    }
+  });
+}
+
+function reproducir(url) {
+  const video = document.getElementById("player");
+  const frame = document.getElementById("frame");
+
+  frame.style.display = "none";
+  video.style.display = "block";
+
+  video.src = url;
+  video.play().catch(() => {
+    // fallback si no es video compatible
+    video.style.display = "none";
+    frame.style.display = "block";
+    frame.src = url;
+  });
+}
+</script>
 </body>
 </html>
